@@ -27,9 +27,11 @@ def repair_bay():
     html = f"""
     <!DOCTYPE html>
     <html>
-    <head><title>Repair</title></head>
+    <head>
+        <title>Repair</title>
+    </head>
     <body>
-        <div class="anchor-point">{code}</div>
+    <div class="anchor-point">{code}</div>
     </body>
     </html>
     """
